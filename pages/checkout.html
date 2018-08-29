@@ -1,0 +1,78 @@
+---
+layout   : default
+permalink: /checkout.html
+# Custom Page Variables
+# ─────────────────────
+title: Checkout
+---
+
+<div class="container onder-laatste">
+	<div class="row mb-5">
+		<h1 class="cross_title cross_title_bt check_t centreren" style="background-color: #EFEDE9;">{{ page.title }}</h1>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 col-sm-4 centreren" style="margin-left: -15px;">
+			<form>
+			<div class="form-group bl_form">
+				<label for="InputName">Naam Voornaam <a style="color: #FE772E !important;">*</a></label>
+				<input type="text" class="form-control" id="InputName"> 
+			</div>
+			<div class="form-group bl_form ">
+				<label for="Textarea">E-mail <a style="color: #FE772E !important;">*</a></label>
+				<input class="form-control" id="InputEmail1">
+			</div>
+			<div class="form-group bl_form ">
+				<label for="Textarea">Adres <a style="color: #FE772E !important;">*</a></label>
+				<input class="form-control" id="Input">
+			</div>
+			<div class="form-group bl_form ">
+				<label for="Textarea">Stad <a style="color: #FE772E !important;">*</a></label>
+				<input class="form-control" id="Input">
+			</div>
+			<div class="row centreren form-group">
+				<div class="form-group bl_form col-lg-6 col-6 col-sm-6 check_pad1">
+					<label for="Textarea">Postcode <a style="color: #FE772E !important;">*</a></label>
+					<input class="form-control" id="Input">
+				</div>
+				<div class="form-group bl_form col-lg-6 col-6 col-sm-6 check_pad2">
+					<label for="Textarea">Land <a style="color: #FE772E !important;">*</a></label>
+					<input class="form-control" id="Input">
+				</div>
+			</div>
+			<div class="form-group bl_form centreren">
+				<label for="Textarea">Tel</label>
+				<input class="form-control" id="Input">
+				<p style="color: #FE772E !important;">* invullen verplicht</p>
+			</div>
+			</form>
+		</div>
+		<div class="col-lg-8 col-sm-8 ml-lg-2 ml-sm-2 ml-0 overzicht centreren">
+			<label class="check_overz" for="Textarea">Overzicht aankoop</label>
+			<div class="row form-group bl_form cards rounded centreren">
+				<div class="p-4 col-lg-6 col-md-6 ">
+					<div class="card-check2 text-center p-2">
+						<img class="inx_cl" src="{{ site.baseurl }}/images/buienmaatje1.png" alt="Buienmaatje">
+						<h5 class="white">Buienmaatje</h5>
+						<h5 class="white">5 x €20</h5>
+					</div>
+				</div>
+				<div class="p-4 col-lg-6 col-md-6 ">
+					<div class="card-check5 text-center p-2">
+						<img class="inx_cl" src="{{ site.baseurl }}/images/sneeuwmaatje2.png" alt="Sneeuwmaatje">
+						<h5 class="white">Sneeuwmaatje</h5>
+						<h5 class="white">3 x €35</h5>
+					</div>
+				</div>
+				<div class="p-4 col-lg-6 col-md-6">
+					<a class="btn btn2 btn-primary btn_terug" href="http://127.0.0.1:4000/1718-nmd2-code-ibutler-SiemTerm/basket.html">Basket</a>
+				</div>
+				<div class="p-4 text-center col-lg-6 col-md-6 ">
+					<h5 class="check_total">Totaal: €205</h5>
+				</div>
+			</div>
+			<a class="btn btn-primary float-right col-12 col-sm-6 col-lg-12 check-btn" href="http://127.0.0.1:4000/1718-nmd2-code-ibutler-SiemTerm/beveiligde_betaling.html">Betalen</a>
+		</div>
+	</div>
+</div>
+
+ 

@@ -1,0 +1,29 @@
+- title: Home
+  url: /index.html
+- title: Mates
+  url: /mates.html
+- title: Shop
+  url: /shop.html
+  crosslinks:
+  - title: Basket
+    url: /basket.html
+  - title: Checkout
+    url: /checkout.html
+  - title: Beveiligde Betaling
+    url: /beveiligde_betaling.html
+  - title: Bedanking
+    url: /bedanking.html
+- title: About
+  url: /about.html
+- title: Contact
+  url: /contact.html
+- title: Account
+  url: /account.html
+  sublinks:
+  - title: Log In
+    url: /login.html
+  - title: Sign Up
+    url: /signup.html
+
+
+

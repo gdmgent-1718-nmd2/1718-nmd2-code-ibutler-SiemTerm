@@ -1,3 +1,38 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+@import "nav";
+@import "custom";
+
+
+@font-face {
+    font-family: 'poetsen_oneregular'!important;
+    src: url('poetsenone-regular-webfont.woff2') format('woff2'),
+         url('poetsenone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, p {
+	font-family: roboto1;
+	color: #50535A;
+	font-size: 10pt;
+	line-height: 20pt;
+}
+
+h4, {
+	color: #FE772E;
+} 
+
+h5, {
+	font-family: poetsen_oneregular;
+	font-weight: 100 !important;
+	color: #FE772E;
+}
+
+h1, h2, h3, {
+	color: #7BCBC8;
+	font-family: poetsen_oneregular;
+}
+
